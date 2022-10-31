@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: monospace;
+
+}
+nav{
+    background-color: #240046;
+    height: 80px;
+    width: 100%;
+  
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding-right: 0 100px;
+    font-weight: bold;
+    padding-left: 5px;
+
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    
+}
+nav ul li{
+    display: inline-block;
+    line-height:80px ;
+    margin: 0 5px;
+
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 7px 13px;
+    position: sticky;
+}
+a:hover{
+    transition: 0.5s;
+    background-color: #3c096c;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+
+
+}
+#check{
+    display: none;
+
+}
+@media(max-width: 952px)
+{
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+
+    }
+    nav ul li a{
+        font-size: 16px;
+
+    }
+}
+@media(max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #7b2cbf;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+    
+    }
+
+nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+
+
+}
+nav ul li a{
+    font-size: 20px;
+}
+a:hover,a.home{
+    background: none;
+    color:#ff9e00 ;
+}
+#check:checked ~ ul{
+    left: 0;
+}
+}
+#sec1{
+    background:url(rc1.jpg);
+    background-size: cover;
+    height: calc(100vh - 10px);
+    background-repeat: no-repeat;
+}
+
+
+
+#p1{
+    font-weight: bold;
+    font-family:Georgia, serif;
+    color: #495057;
+    left: 100px;
+    top: 150px;
+    font-size: 80px;
+    float: left;
+    position: relative;
+  
+    
+}
+#p2{
+    color: #495057;
+    position: relative;
+     right: 300px;
+    top: 370px;
+    font-weight: bold;
+}
+form{
+    position: relative;
+    top: 450px;
+    right: 270px;
+    color: white;
+    background-color: none;
+    font-style: normal;
+    font-weight: bold;
+    color: #495057;
+}
+
+#btn{
+    position: relative;
+    top: 50px;
+  
+    color:white;
+    background-color:#3c096c;
+    border-radius: 3px;
+    font-size: 20px;
+    padding: 10px 30px;
+}
+#btn:hover{
+    background-color: #495057;
+    color: white;
+}
+#sec2{
+    background: rgb(36,0,70);
+background: linear-gradient(90deg, rgba(36,0,70,1) 0%, rgba(158,163,193,1) 50%, rgba(36,0,70,1) 100%);
+    height: 50vh;
+    border-left: #ff6d00;
+    border-width: 10px;
+    border-style: groove;
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    border-right-style: hidden;
+   
+  
+}
+#p3{
+    position: relative;
+   font-size: 50px;
+   font-weight: bold;
+   font-family:Georgia, serif;
+    color:white;
+    top: 10px;
+    left: 10px;
+}
+#p4{
+    position: relative;
+    font-size: 18px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    top: 20px;
+    left: 15px;
+}
+ul p{
+    position: relative;
+    top: 10px;
+    display:-webkit-inline-box;
+    top: 80px;
+    font-style: italic;
+    color: white;
+    font-size: 18.5px;
+    left: 60px;
+    text-align:left;
+    
+ 
+}
+ul p b{
+    font-weight: bold;
+    font-style: normal;
+    color:white;
+}
+#sec3{
+    height: 60vh;
+    background-color: #dee2e6;
+
+}
+#sec3 img{
+    display: inline;
+    position: relative;
+  
+    margin: 0 100px;
+    left: 100px;
+    top: 100px;
+    box-shadow: 0 20px 25px rgba(0, 0, 0,0.25);
+}
+#sec4{
+    
+    background: rgb(36,0,70);
+background: linear-gradient(90deg, rgba(36,0,70,1) 16%, rgba(106,36,186,1) 83%);
+height: 30vh;
+}
+#sec4 p{
+    position: relative;
+   font-size: 20px;
+   font-weight: bold;
+   font-family:Georgia, serif;
+    color:white;
+     text-align: center;
+     top: 80px;
+}
+#contactus{
+    position: relative;
+    text-align: left;
+    color: white;
+    font-family:Georgia, serif;
+    font-size: 15px;
+    top: 100px;
+    
+    
+}
